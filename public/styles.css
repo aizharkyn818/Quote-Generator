@@ -1,0 +1,58 @@
+body{
+    background-image: url(quote.jpg);
+    background-size: cover;
+}
+ .container{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    margin-top: 5%;
+ }
+ #displayTime, #displayDate{
+     color:#1E212D;
+ }
+ #displayTime{
+     font: 3rem 'Ubuntu', sans-serif;
+     padding-bottom: 20px; 
+ }
+ #displayDate{
+     font: 1.5rem 'Ubuntu', sans-serif;
+ }
+h1{
+    color: #184D47;
+    margin-top: 3%;
+    font: 3rem 'Ubuntu', sans-serif;
+   
+}
+#quoteList{
+    color: #1E212D;
+    height:200px;
+    max-width: 25em;
+    padding-top: 5%;
+    font: 1.5rem 'Quattrocento', serif;
+    letter-spacing: 0.1em;
+    text-align: center; 
+    line-height: 1.5em;
+}
+button{
+    margin-bottom: 40px;
+    padding: 20px 40px;
+    font: 1.3rem 'Ubuntu', sans-serif;
+    border-radius: 1em;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    background-color: #1F441E;
+    color:#FDE8CD;
+}
+button:hover{
+    background-color: #FEFFDE;
+    color:#1F441E;  
+}
+@media (max-width: 450px){
+    body{
+        background-image: url(rotated-image.jpg);
+       
+       
+    }
+}
